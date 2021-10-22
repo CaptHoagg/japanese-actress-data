@@ -87,7 +87,7 @@ def get_all_data_from_link(link):
     return final
 
 def main(): 
-    with open('final_data_of_project.csv','w',encoding='utf') as file: 
+    with open('final_data_of_project.csv','w',encoding='utf-8') as file: 
         for i in range(1,19394): 
             try:
                 link = "https://xxx.xcity.jp/idol/detail/"+str(i)+"/"
